@@ -4,16 +4,98 @@
 <meta charset="utf-8">
 <title>Untitled Page</title>
 <meta name="generator" content="WYSIWYG Web Builder 15 Trial Version - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
 <link href="Gol_WS.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-3.4.1.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb15.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#headerPanelMenu").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#headerPanelMenu_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#headerPanelMenu_panel"));
+   });
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top-88 }, 600, 'easeOutCirc');
+   });
+});
+</script>
 </head>
 <body>
 <a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb15.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250"></a>
-<div id="wb_Text1" style="position:absolute;left:523px;top:94px;width:235px;height:22px;z-index:1;">
-<p style="font-size:20px;line-height:22.5px;font-weight:bold;color:#000000;"><span style="color:#000000;">Golnoush Rahimzadeh</span></p></div>
-<div id="wb_Image1" style="position:absolute;left:93px;top:87px;width:397px;height:294px;z-index:2;">
-<img src="images/New Orleans 053.JPG" id="Image1" alt=""></div>
-<div id="wb_Text2" style="position:absolute;left:523px;top:153px;width:306px;height:223px;z-index:3;">
+<div id="wb_Image2" style="position:absolute;left:961px;top:486px;width:0px;height:0px;z-index:9;">
+<img src="" id="Image2" alt=""></div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerPanelMenu" style="display:inline-block;width:50px;height:53px;z-index:0;">
+<a href="#headerPanelMenu_markup" id="headerPanelMenu">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="headerPanelMenu_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="#home">Home</a></li>
+   <li role="menuitem"><a href="#about">About</a></li>
+   <li role="menuitem"><a href="#projects">Projects</a></li>
+   <li role="menuitem"><a href="#contact">Contact</a></li>
+</ul>
+<div id="headerPanelMenu-footer">© WYSIWYG Web Builder 2018</div>
+</div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerBreadcrumb" style="display:inline-block;width:100%;z-index:1;vertical-align:top;">
+<ul id="headerBreadcrumb">
+<li><a href="#home">HOME</a></li>
+<li><a href="#about">RESEARCH</a></li>
+<li><a href="#projects">TEACHING</a></li>
+<li><a href="http://">CV</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<input type="text" id="searchInput" style="display:none;width:185px;height:34px;z-index:2;" name="search" value="" spellcheck="false" placeholder="Search...">
+<div id="wb_searchClose" style="display:none;width:33px;height:35px;text-align:center;z-index:3;">
+<a href="#" onclick="ShowObjectWithEffect('searchInput', 0, 'slideright', 500);ShowObjectWithEffect('wb_searchClose', 0, '', 0);ShowObject('searchOpen', 1);return false;"><div id="searchClose"><i class="fa fa-times"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="wb_Text9" style="position:absolute;left:436px;top:664px;width:940px;height:30px;text-align:center;z-index:12;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Image1" style="display:inline-block;width:359px;height:268px;z-index:4;">
+<img src="images/New Orleans 053.JPG" id="Image1" alt="">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text1">
+<p style="font-size:20px;line-height:22.5px;font-weight:bold;color:#000000;"><span style="color:#000000;">Golnoush Rahimzadeh</span></p>
+</div>
+<div id="wb_Text3">
+<p style="color:#000000;"><span style="color:#000000;">Ph.D. candidate in Economics</span></p>
+</div>
+<div id="wb_Text2">
 <p>&nbsp;</p>
 <p style="color:#000000;"><span style="color:#000000;">Andrew Young School of Policy Studies</span></p>
 <p style="color:#000000;"><span style="color:#000000;">Georgia State University</span></p>
@@ -28,11 +110,24 @@
 <p style="color:#000000;"><span style="color:#000000;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; golnoush.rahimzadeh@gmail.com</span></p>
 <p style="color:#000000;"><span style="color:#000000;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; grahimzadeh1@student.gsu.edu</span></p>
 <p style="color:#000000;"><span style="color:#000000;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; +1 (252) 4128584</span></p>
-<p>&nbsp;</p></div>
-<div id="wb_Image2" style="position:absolute;left:860px;top:309px;width:0px;height:0px;z-index:4;">
-<img src="" id="Image2" alt=""></div>
-<hr id="Line1" style="position:absolute;left:525px;top:135px;width:247px;z-index:5;">
-<div id="wb_Text3" style="position:absolute;left:523px;top:116px;width:215px;height:15px;z-index:6;">
-<p style="color:#000000;"><span style="color:#000000;">Ph.D. candidate in Economics</span></p></div>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Footer">
+<div id="Footer">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="PageFooter2" style="position:absolute;overflow:hidden;text-align:left;left:0px;top:1133px;width:100%;height:12px;z-index:15;">
+</div>
+<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:left;left:0px;top:1118px;width:100%;height:27px;z-index:16;">
+</div>
 </body>
 </html>
