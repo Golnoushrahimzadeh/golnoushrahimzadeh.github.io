@@ -9,94 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text1
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 15px;
-   line-height: 16.5px;
-}
-#wb_Text1 p, #wb_Text1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text2
-{
-   color: #000000;
-   font-family: Calibri;
-   font-weight: normal;
-   font-size: 17px;
-   line-height: 21px;
-}
-#wb_Text2 p, #wb_Text2 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text3
-{
-   color: #000000;
-   font-family: Calibri;
-   font-weight: normal;
-   font-size: 17px;
-   line-height: 21px;
-}
-#wb_Text3 p, #wb_Text3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text4
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 17px;
-   line-height: 20px;
-}
-#wb_Text4 p, #wb_Text4 ul
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_LayoutGrid2
 {
    clear: both;
@@ -218,4 +130,26 @@ body
    content: "";
    padding: 0 10px;
    color: #C0C0C0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text1
+{
+   color: #000000;
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 16.5px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
 }
