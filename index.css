@@ -201,21 +201,6 @@ body
    width: 100% !important;
 }
 }
-#wb_Image1
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 1px 1px 1px 1px;
-   display: inline-block;
-   width: 359px;
-   height: 268px;
-   vertical-align: top;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -396,13 +381,28 @@ body
    padding: 0 10px;
    color: #C0C0C0;
 }
-#PageFooter2
+#PageFooter1
 {
    background-color: #F5F5F5;
    background-image: none;
    box-sizing: border-box;
 }
-#PageFooter1
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 224px;
+   height: 395px;
+   vertical-align: top;
+}
+#PageFooter2
 {
    background-color: #F5F5F5;
    background-image: none;
