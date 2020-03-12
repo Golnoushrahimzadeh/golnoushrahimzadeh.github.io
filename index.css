@@ -381,12 +381,6 @@ body
    padding: 0 10px;
    color: #C0C0C0;
 }
-#PageFooter1
-{
-   background-color: #F5F5F5;
-   background-image: none;
-   box-sizing: border-box;
-}
 #wb_Image1
 {
    margin: 0;
@@ -403,6 +397,12 @@ body
    vertical-align: top;
 }
 #PageFooter2
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   box-sizing: border-box;
+}
+#PageFooter1
 {
    background-color: #F5F5F5;
    background-image: none;
